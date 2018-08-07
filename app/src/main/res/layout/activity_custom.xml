@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimaryDark"
+        app:contentInsetStart="0dp"
+        app:title="Custom Sample"
+        app:titleTextColor="@android:color/white"
+        app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="#F0EFF5"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.iigo.library.LovelyView
+                android:background="@android:color/holo_green_light"
+                app:leftTextColor="@android:color/white"
+                app:leftText="She met me at the fence"
+                app:leftTextSize="18sp"
+                app:leftTextMarginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <com.iigo.library.LovelyView
+                android:background="@android:color/white"
+                app:leftImage="@mipmap/icon_back_left"
+                app:leftImageWidth="20dp"
+                app:leftImageHeight="20dp"
+                app:leftImageMarginLeft="10dp"
+                app:rightImage="@mipmap/icon_back"
+                app:rightImageWidth="20dp"
+                app:rightImageHeight="20dp"
+                app:rightImageMarginRight ="10dp"
+                app:leftText="Left"
+                app:leftTextSize="18sp"
+                app:leftTextMarginLeft="10dp"
+                app:leftTextColor="@android:color/holo_orange_light"
+                app:rightText="Right"
+                app:rightTextSize="18sp"
+                app:rightTextColor="@android:color/holo_blue_light"
+                app:rightTextMarginRight="10dp"
+                app:centerText="Title"
+                app:centerTextSize="20sp"
+                app:centerTextColor="@android:color/holo_red_light"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+
+            <com.iigo.library.LovelyView
+                android:background="@color/colorPrimary"
+                app:leftImage="@mipmap/icon_back_left"
+                app:leftImageWidth="20dp"
+                app:leftImageHeight="20dp"
+                app:leftImageMarginLeft="10dp"
+                app:rightImage="@mipmap/icon_search"
+                app:rightImageWidth="20dp"
+                app:rightImageHeight="20dp"
+                app:rightImageMarginRight ="10dp"
+                app:centerText="Search"
+                app:centerTextSize="20sp"
+                app:centerTextColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+
+            <com.iigo.library.LovelyView
+                android:background="@android:color/holo_orange_light"
+                app:leftImage="@mipmap/icon_head_photo"
+                app:leftImageWidth="40dp"
+                app:leftImageHeight="40dp"
+                app:leftImageMarginLeft="10dp"
+                app:centerText="Me"
+                app:centerTextSize="20sp"
+                app:centerTextColor="@android:color/black"
+                app:rightText="More"
+                app:rightTextSize="18sp"
+                app:rightTextColor="@android:color/holo_blue_dark"
+                app:rightTextMarginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"/>
+
+            <com.iigo.library.LovelyView
+                android:background="@android:color/white"
+                app:leftImage="@mipmap/ic_launcher"
+                app:leftImageWidth="50dp"
+                app:leftImageHeight="50dp"
+                app:leftImageMarginLeft="10dp"
+                app:leftText="Left"
+                app:leftTextSize="16sp"
+                app:leftTextMarginLeft="10dp"
+                app:leftTextColor="@android:color/holo_orange_light"
+                app:leftTopText="Left Top"
+                app:leftTopTextSize="16sp"
+                app:leftTopTextMarginLeft="10dp"
+                app:leftTopTextColor="@android:color/holo_orange_light"
+                app:leftBottomText="Left Bottom"
+                app:leftBottomTextSize="16sp"
+                app:leftBottomTextMarginLeft="10dp"
+                app:leftBottomTextColor="@android:color/holo_orange_light"
+                app:centerText="All Attr"
+                app:centerTextSize="16sp"
+                app:centerTextColor="@android:color/black"
+                app:rightText="Right"
+                app:rightTextSize="16sp"
+                app:rightTextColor="@android:color/holo_blue_dark"
+                app:rightTextMarginRight="10dp"
+                app:rightTopText="Right Top"
+                app:rightTopTextSize="16sp"
+                app:rightTopTextColor="@android:color/holo_blue_dark"
+                app:rightTopTextMarginRight="10dp"
+                app:rightBottomText="Right Top"
+                app:rightBottomTextSize="16sp"
+                app:rightBottomTextColor="@android:color/holo_blue_dark"
+                app:rightBottomTextMarginRight="10dp"
+                app:rightImage="@mipmap/ic_launcher"
+                app:rightImageWidth="50dp"
+                app:rightImageHeight="50dp"
+                app:rightImageMarginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

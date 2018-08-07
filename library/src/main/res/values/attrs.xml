@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LovelyView">
+        <attr name="leftText" format="string|reference" />
+        <attr name="leftTextSize" format="dimension|reference" />
+        <attr name="leftTextColor" format="color|reference" />
+        <attr name="leftTextMarginLeft" format="dimension|reference" />
+        <attr name="leftTextMarginRight" format="dimension|reference" />
+        <attr name="leftTextMarginTop" format="dimension|reference" />
+        <attr name="leftTextMarginBottom" format="dimension|reference" />
+
+        <attr name="leftTopText" format="string|reference" />
+        <attr name="leftTopTextSize" format="dimension|reference" />
+        <attr name="leftTopTextColor" format="color|reference" />
+        <attr name="leftTopTextMarginLeft" format="dimension|reference" />
+        <attr name="leftTopTextMarginRight" format="dimension|reference" />
+        <attr name="leftTopTextMarginTop" format="dimension|reference" />
+        <attr name="leftTopTextMarginBottom" format="dimension|reference" />
+
+        <attr name="leftBottomText" format="string|reference" />
+        <attr name="leftBottomTextSize" format="dimension|reference" />
+        <attr name="leftBottomTextColor" format="color|reference" />
+        <attr name="leftBottomTextMarginLeft" format="dimension|reference" />
+        <attr name="leftBottomTextMarginRight" format="dimension|reference" />
+        <attr name="leftBottomTextMarginTop" format="dimension|reference" />
+        <attr name="leftBottomTextMarginBottom" format="dimension|reference" />
+
+        <attr name="rightText" format="string|reference" />
+        <attr name="rightTextSize" format="dimension|reference" />
+        <attr name="rightTextColor" format="color|reference" />
+        <attr name="rightTextMarginLeft" format="dimension|reference" />
+        <attr name="rightTextMarginRight" format="dimension|reference" />
+        <attr name="rightTextMarginTop" format="dimension|reference" />
+        <attr name="rightTextMarginBottom" format="dimension|reference" />
+
+        <attr name="rightTopText" format="string|reference" />
+        <attr name="rightTopTextSize" format="dimension|reference" />
+        <attr name="rightTopTextColor" format="color|reference" />
+        <attr name="rightTopTextMarginLeft" format="dimension|reference" />
+        <attr name="rightTopTextMarginRight" format="dimension|reference" />
+        <attr name="rightTopTextMarginTop" format="dimension|reference" />
+        <attr name="rightTopTextMarginBottom" format="dimension|reference" />
+
+        <attr name="rightBottomText" format="string|reference" />
+        <attr name="rightBottomTextSize" format="dimension|reference" />
+        <attr name="rightBottomTextColor" format="color|reference" />
+        <attr name="rightBottomTextMarginLeft" format="dimension|reference" />
+        <attr name="rightBottomTextMarginRight" format="dimension|reference" />
+        <attr name="rightBottomTextMarginTop" format="dimension|reference" />
+        <attr name="rightBottomTextMarginBottom" format="dimension|reference" />
+
+        <attr name="centerText" format="string|reference" />
+        <attr name="centerTextSize" format="dimension|reference" />
+        <attr name="centerTextColor" format="color|reference" />
+
+        <attr name="leftImage" format="reference"></attr>
+        <attr name="leftImageWidth" format="dimension|reference"></attr>
+        <attr name="leftImageHeight" format="dimension|reference"></attr>
+        <attr name="leftImageScaleType" >
+            <flag name="matrix" value="0"></flag>
+            <flag name="fit_xy" value="1"></flag>
+            <flag name="fit_start" value="2"></flag>
+            <flag name="fit_center" value="3"></flag>
+            <flag name="fit_end" value="4"></flag>
+            <flag name="center" value="5"></flag>
+            <flag name="center_crop" value="6"></flag>
+            <flag name="center_inside" value="7"></flag>
+        </attr>
+        <attr name="leftImageMarginLeft" format="dimension|reference" />
+        <attr name="leftImageMarginRight" format="dimension|reference" />
+        <attr name="leftImageMarginTop" format="dimension|reference" />
+        <attr name="leftImageMarginBottom" format="dimension|reference" />
+
+        <attr name="rightImage" format="reference"></attr>
+        <attr name="rightImageWidth" format="dimension|reference"></attr>
+        <attr name="rightImageHeight" format="dimension|reference"></attr>
+        <attr name="rightImageScaleType" >
+            <flag name="matrix" value="0"></flag>
+            <flag name="fit_xy" value="1"></flag>
+            <flag name="fit_start" value="2"></flag>
+            <flag name="fit_center" value="3"></flag>
+            <flag name="fit_end" value="4"></flag>
+            <flag name="center" value="5"></flag>
+            <flag name="center_crop" value="6"></flag>
+            <flag name="center_inside" value="7"></flag>
+        </attr>
+        <attr name="rightImageMarginLeft" format="dimension|reference" />
+        <attr name="rightImageMarginRight" format="dimension|reference" />
+        <attr name="rightImageMarginTop" format="dimension|reference" />
+        <attr name="rightImageMarginBottom" format="dimension|reference" />
+
+        <attr name="topLineDisplay" format="boolean"></attr>
+        <attr name="topLineColor" format="color|reference"></attr>
+        <attr name="topLineHeight" format="dimension|reference"></attr>
+        <attr name="topLineMarginLeft" format="dimension|reference" />
+        <attr name="topLineMarginRight" format="dimension|reference" />
+        <attr name="topLineMarginTop" format="dimension|reference" />
+        <attr name="topLineMarginBottom" format="dimension|reference" />
+
+        <attr name="bottomLineDisplay" format="boolean"></attr>
+        <attr name="bottomLineColor" format="color|reference"></attr>
+        <attr name="bottomLineHeight" format="dimension|reference"></attr>
+        <attr name="bottomLineMarginLeft" format="dimension|reference" />
+        <attr name="bottomLineMarginRight" format="dimension|reference" />
+        <attr name="bottomLineMarginTop" format="dimension|reference" />
+        <attr name="bottomLineMarginBottom" format="dimension|reference" />
+
+    </declare-styleable>
+</resources>

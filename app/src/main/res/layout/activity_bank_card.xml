@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimaryDark"
+        app:contentInsetStart="0dp"
+        app:title="Band Card"
+        app:titleTextColor="@android:color/white"
+        app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="#F0EFF5"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.iigo.library.LovelyView
+                android:id="@+id/lv_1"
+                android:onClick="onClick"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/item_selectable_bg"
+                app:leftImageMarginLeft="15dp"
+                app:leftImage="@mipmap/icon_cmb"
+                app:rightImageMarginRight="15dp"
+                app:rightImageWidth="20dp"
+                app:rightImageHeight="20dp"
+                app:rightImage="@mipmap/icon_back"
+                app:leftTopText="China Merchants Bank"
+                app:leftTopTextColor="#333333"
+                app:leftTopTextMarginTop="20dp"
+                app:leftTopTextMarginLeft="10dp"
+                app:leftTopTextSize="18sp"
+                app:leftBottomText="*** **** **** 8888"
+                app:leftBottomTextSize="16sp"
+                app:leftBottomTextMarginLeft="10dp"
+                app:leftBottomTextMarginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+            <com.iigo.library.LovelyView
+                android:id="@+id/lv_2"
+                android:onClick="onClick"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/item_selectable_bg"
+                app:leftImageMarginLeft="15dp"
+                app:leftImage="@mipmap/icon_ccb"
+                app:rightImageMarginRight="15dp"
+                app:rightImageWidth="20dp"
+                app:rightImageHeight="20dp"
+                app:rightImage="@mipmap/icon_back"
+                app:leftTopText="China Construction Bank"
+                app:leftTopTextColor="#333333"
+                app:leftTopTextMarginTop="20dp"
+                app:leftTopTextMarginLeft="10dp"
+                app:leftTopTextSize="18sp"
+                app:leftBottomText="*** **** **** 8888"
+                app:leftBottomTextSize="16sp"
+                app:leftBottomTextMarginLeft="10dp"
+                app:leftBottomTextMarginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+            <com.iigo.library.LovelyView
+                android:id="@+id/lv_3"
+                android:onClick="onClick"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/item_selectable_bg"
+                app:leftImageMarginLeft="15dp"
+                app:leftImage="@mipmap/icon_cab"
+                app:rightImageMarginRight="15dp"
+                app:rightImageWidth="20dp"
+                app:rightImageHeight="20dp"
+                app:rightImage="@mipmap/icon_back"
+                app:leftTopText="Agricultural Bank Of China"
+                app:leftTopTextColor="#333333"
+                app:leftTopTextMarginTop="20dp"
+                app:leftTopTextMarginLeft="10dp"
+                app:leftTopTextSize="18sp"
+                app:leftBottomText="*** **** **** 8888"
+                app:leftBottomTextSize="16sp"
+                app:leftBottomTextMarginLeft="10dp"
+                app:leftBottomTextMarginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+            <com.iigo.library.LovelyView
+                android:id="@+id/lv_4"
+                android:onClick="onClick"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/item_selectable_bg"
+                app:leftImageMarginLeft="15dp"
+                app:leftImage="@mipmap/icon_cc"
+                app:rightImageMarginRight="15dp"
+                app:rightImageWidth="20dp"
+                app:rightImageHeight="20dp"
+                app:rightImage="@mipmap/icon_back"
+                app:leftTopText="China Citic Bank"
+                app:leftTopTextColor="#333333"
+                app:leftTopTextMarginTop="20dp"
+                app:leftTopTextMarginLeft="10dp"
+                app:leftTopTextSize="18sp"
+                app:leftBottomText="*** **** **** 8888"
+                app:leftBottomTextSize="16sp"
+                app:leftBottomTextMarginLeft="10dp"
+                app:leftBottomTextMarginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
