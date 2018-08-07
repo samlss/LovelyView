@@ -1,6 +1,6 @@
 
 # LovelyView
-### 一个组合图片和文本类的view，可让你更加节省时间地开发类似于左中右显示的这种图片+文本的列表项。
+### 一个组合图片和文本类的view，可让你更加节省时间地开发类似于左中右这种显示顺序的图片+文本的列表项。
 
 [![Api reqeust](https://img.shields.io/badge/api-1+-green.svg)](https://github.com/samlss/LovelyView)  [![Apache License 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/samlss/LovelyView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
