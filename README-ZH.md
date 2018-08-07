@@ -47,7 +47,7 @@ dependencies {
 | 属性        | 说明           |
 | ------------- |:-------------:|
 | `leftImage`/`rightImage`      | ImageView的图片资源，例如@mipmap/ic_launcher |
-| `leftImageWidth`/`rightImageWidth` | ImageView和宽 |
+| `leftImageWidth`/`rightImageWidth` | ImageView的宽 |
 | `leftImageHeight`/`rightImageHeight` | ImageView的高 |
 | `leftImageScaleType`/`rightImageScaleType` | ImageView的ScaleType |
 | `leftImageMarginLeft`/`rightImageMarginLeft` | ImageView的marginLeft距离 |
