@@ -3,7 +3,7 @@
 ### A view that combines images and texts, allowing you to save time by developing a list item like  'images + text' follow the display order of left, center, and right.
 
 
-### [中文](https://github.com/samlss/LovelyView/edit/master/README-ZH.md)
+### [中文](https://github.com/samlss/LovelyView/blob/master/README-ZH.md)
 
 [![Api reqeust](https://img.shields.io/badge/api-1+-green.svg)](https://github.com/samlss/LovelyView)  [![Apache License 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/samlss/LovelyView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
