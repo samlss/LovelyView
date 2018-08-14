@@ -150,7 +150,6 @@ dependencies {
         lovelyView.getRightImageView().setImageResource(R.mipmap.icon_cab);
 
         lovelyView.getCenterTextView().setText("center");
-    }
 ```
 
 * If the attribute specified in the layout.xml does not meet your requirements, you can directly using get...View() to do more.
