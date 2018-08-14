@@ -148,7 +148,6 @@ dependencies {
         lovelyView.getRightImageView().setImageResource(R.mipmap.icon_cab);
 
         lovelyView.getCenterTextView().setText("center");
-    }
 ```
 
 * 如果在布局文件中指定的属性还不满足需求的话，可以通过get...View()来直接进行操作
